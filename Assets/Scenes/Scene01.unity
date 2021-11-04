@@ -1088,5 +1088,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: WorldMap
       objectReference: {fileID: 0}
+    - target: {fileID: 8347028736652362622, guid: 1c720ce3f5a394b4da7b0530e5d9f56f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c720ce3f5a394b4da7b0530e5d9f56f, type: 3}

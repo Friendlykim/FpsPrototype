@@ -102,4 +102,9 @@ public class AkAssultRifle : MonoBehaviour
         audioSource.clip = clip;
         audioSource.Play();
     }
+
+    public void WeaponInteraction()
+    {
+        animator.AnimPlay("Inspect", 0, 0);
+    }
 }

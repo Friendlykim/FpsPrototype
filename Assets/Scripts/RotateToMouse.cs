@@ -98,5 +98,8 @@ public class RotateToMouse : MonoBehaviour
         {
             weapon.StopAttack();
         }
+
+        if (Input.GetKey(KeyCode.L))
+            weapon.WeaponInteraction();
     }
 }
